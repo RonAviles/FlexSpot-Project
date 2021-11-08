@@ -1,0 +1,23 @@
+.monofont {
+
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.stripedbg {
+    background-image: linear-gradient(135deg, #000000 4.55%, #ffffff 4.55%, #ffffff 50%, #000000 50%, #000000 54.55%, #ffffff 54.55%, #ffffff 100%);
+background-size: 31.11px 31.11px;
+animation: moveIt 20s linear infinite;
+}
+@keyframes moveIt {
+  from {background-position: bottom left;}
+  to {background-position: top right;}
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
